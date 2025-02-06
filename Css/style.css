@@ -1,8 +1,8 @@
 body {
     text-align: center;
-    background-color: rgb(42, 58, 135);
-    color: rgb(213, 220, 184);
-    font-family: fantasy;
+    background-color: #EF8354;
+    color: #FCEDE3;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -12,16 +12,18 @@ a {
 }
 
 a:hover {
-    color:aqua;
+    color:#FCEDE3;
 }
 
-#fugle {
+#bus {
     display: flex;
     justify-content: center;
 }
 
-#div1, 
+
 #div2,
+#div3,
+#div4,
 .kasse {
   float: left;
   height: 200px;
@@ -31,6 +33,7 @@ a:hover {
   border: 1px solid black;
   border-radius: 50%;
   background-color:honeydew;
+  color: #d05825;
 }
 img {
     max-width: 100%;
@@ -40,4 +43,10 @@ img {
 .videre {
     clear: both;
     display: block;
+    background-color: #d05825;
+    padding: 2ch;
+    width: 33%;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 10px;
 }
