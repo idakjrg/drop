@@ -11,7 +11,7 @@
 
 
 <!--spørgsmål 1-->
-<h1>Klassequiz</h1>
+<a href="index.html"><h1>Klasse quiz</h1></a>
 
 <p>
     Hvor skal vi hen på studietur?</p>
@@ -20,14 +20,14 @@
 
 <div 
     id="div1" 
-    ondrop="drop(event,'Nu er fuglen hjemme igen.')" 
+    ondrop="drop(event,'')" 
     ondragover="allowDrop(event)">
     <img src="images/bus.webp" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="auto">
 </div>
 
 <div 
     id="div2" 
-    ondrop="drop(event, 'Rigtig god ide. Et fint sted!')" 
+    ondrop="drop(event, 'Det er forkert!')" 
     ondragover="allowDrop(event)">
     <h3>Shanghai</h3>
 </div>
@@ -35,7 +35,7 @@
 <div 
     id="div3" 
     class="kasse"
-    ondrop="drop(event, 'Uha! Her er uhyggeligt. Fuglen vil væk herfra.')" 
+    ondrop="drop(event, 'Det er rigtigt!')" 
     ondragover="allowDrop(event)">
     <h3>Amsterdam</h3>
 </div>
@@ -43,7 +43,7 @@
 <div 
     id="div4" 
     class="kasse"
-    ondrop="drop(event, 'Uha! Her er uhyggeligt. Fuglen vil væk herfra.')" 
+    ondrop="drop(event, 'Det er forkert!')" 
     ondragover="allowDrop(event)">
     <h3>Randers </h3>
 </div>
@@ -52,7 +52,6 @@
 
 <section class="videre">
     <span id="feedback"></span> <br>
-    Point: <span id="hiscore"></span><br>
     <a href="nrTo.html"> &#8680 </a>
 </section>
     
