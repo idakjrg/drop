@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: #EE4B6A;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:hover {
+    color:aqua;
+}
+
+#fugle {
+    display: flex;
+    justify-content: center;
+}
+
+
+#div2,
+#div3,
+#div4,
+.kasse {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+ 
+}
+
+#div2 {
+  background-image: url();
+  background-size: cover; /* For at sikre, at billedet dækker hele området */
+  
+}
+
+#div3 {
+  background-image: url();
+  background-size: cover;
+}
+
+#div4 {
+  background-image: url();
+  background-size: cover;
+  
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.videre {
+    clear: both;
+    display: block;
+    background-color: #db2b4b;
+    padding: 2ch;
+    width: 33%;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 10px;
+}
