@@ -11,42 +11,53 @@
 
 
 <!--spørgsmål 1-->
-<h1>Drag and Drop Demo</h1>
-<h2>"Quizzz</h2>
+<h1>Klassequiz</h1>
 
 <p>
     Hvor skal vi hen på studietur?</p>
 
-<section id="fugle">
+<section id="bus">
 
 <div 
     id="div1" 
     ondrop="drop(event,'Nu er fuglen hjemme igen.')" 
     ondragover="allowDrop(event)">
-    <img src="images/pngtree-ulv-wolf-grå-ulv-dyr-photo-png-image_14706504.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+    <img src="images/bus.webp" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="auto">
 </div>
 
 <div 
     id="div2" 
     ondrop="drop(event, 'Rigtig god ide. Et fint sted!')" 
-    ondragover="allowDrop(event)"></div>
+    ondragover="allowDrop(event)">
+    <h3>Shanghai</h3>
+</div>
 
-    <div 
+<div 
     id="div3" 
     class="kasse"
     ondrop="drop(event, 'Uha! Her er uhyggeligt. Fuglen vil væk herfra.')" 
-    ondragover="allowDrop(event)"></div>
+    ondragover="allowDrop(event)">
+    <h3>Amsterdam</h3>
+</div>
+
+<div 
+    id="div4" 
+    class="kasse"
+    ondrop="drop(event, 'Uha! Her er uhyggeligt. Fuglen vil væk herfra.')" 
+    ondragover="allowDrop(event)">
+    <h3>Randers </h3>
+</div>
 
 </section>
 
 <section class="videre">
     <span id="feedback"></span> <br>
     Point: <span id="hiscore"></span><br>
-    <a href="#"> &#8680 </a>
+    <a href="nrTo.html"> &#8680 </a>
 </section>
     
 <footer>
-    &copy; petj 2025.
+    &copy; Ida, Julie, Sofie & Caroline 2025.
 </footer>
 
 <script src="Js/js.js"></script>

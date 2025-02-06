@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klassequiz</title>
+
+    <link rel="stylesheet" href="Css/nr3.css">
+</head>
+<body>
+
+
+
+<h1>Klassequiz</h1>
+
+<p>
+    Hvor mange elever er vi i klassen? Træk hånden til det korrekte antal.</p>
+
+<section id="fugle">
+
+<div 
+    id="div" 
+    ondrop="drop(event,'Forkert. Prøv igen.')" 
+    ondragover="allowDrop(event)">
+    <img src="images/thumbs.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div 
+    id="div1" 
+    ondrop="drop(event,'Forkert. Prøv igen.')" 
+    ondragover="allowDrop(event)">
+    <h3>30</h3>
+</div>
+
+<div 
+    id="div2" 
+    ondrop="drop(event, 'Rigtigt. Gå videre til næste spørgsmål.')" 
+    ondragover="allowDrop(event)">
+    <h3>31</h3>
+</div>
+
+    <div 
+    id="div3" 
+    class="kasse"
+    ondrop="drop(event, 'Forkert. Prøv igen.')" 
+    ondragover="allowDrop(event)">
+    <h3>32</h3>
+</div>
+    
+</section>
+
+<section class="videre">
+    <span id="feedback"></span> <br>
+    <a href="nrFire.html"> &#8680 </a>
+</section>
+
+<footer>
+    &copy; JLJ 2025.
+</footer>
+
+<script src="js/js.js"></script>
+
+</body>
+</html>
