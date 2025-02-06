@@ -34,7 +34,7 @@ a:hover {
 
 }
 h3{
-   color: black;
+   color: #0F4773;
 }
 img {
     max-width: 100%;
@@ -44,7 +44,7 @@ img {
 .videre {
     clear: both;
     display: block;
-    background-color:#DF3B57;
+    background-color:#062b48;
     padding: 2ch;
     width: 33%;
     margin: auto;
