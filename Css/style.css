@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: rgb(42, 58, 135);
+    color: rgb(213, 220, 184);
+    font-family: fantasy;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:hover {
+    color:aqua;
+}
+
+#fugle {
+    display: flex;
+    justify-content: center;
+}
+
+#div1, 
+#div2,
+.kasse {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color:honeydew;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.videre {
+    clear: both;
+    display: block;
+}
