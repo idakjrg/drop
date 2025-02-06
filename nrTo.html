@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Demo</title>
+
+    <link rel="stylesheet" href="Css/nr2.css">
+</head>
+<body>
+
+
+<!--spørgsmål 1-->
+<h1>Klasse quiz</h1>
+
+
+<p>
+    Hvilket fag har vi idag?  Træk bøgerne til den rigtige placering</p>
+
+<section id="fugle">
+<div>
+ <img src="images/books-clipart-md.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+   
+<div 
+    id="div1" 
+    ondrop="drop(event,'Forkert prøv igen')" 
+    ondragover="allowDrop(event)">
+    <h3>
+        UX
+    </h3>
+</div>
+
+<div 
+    id="div2" 
+    ondrop="drop(event, 'Det er rigtigt!')" 
+    ondragover="allowDrop(event)">
+<h3>
+    Programering
+</h3>
+</div>
+
+    <div 
+    id="div3" 
+    class="kasse"
+    ondrop="drop(event, 'Forkert prøv igen')" 
+    ondragover="allowDrop(event)">
+    <h3>
+        Design
+    </h3></div>
+
+</section>
+
+<section class="videre">
+    <span id="feedback"></span> <br>
+  
+    <a href="#"> &#8680 </a>
+</section>
+    
+
+
+<script src="Js/js.js"></script>
+
+</body>
+</html>
