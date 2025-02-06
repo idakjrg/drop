@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: rgb(42, 58, 135);
+    color: rgb(213, 220, 184);
+    font-family: fantasy;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:hover {
+    color:aqua;
+}
+
+#fugle {
+    display: flex;
+    justify-content: center;
+}
+
+
+#div2,
+#div3,
+#div4,
+.kasse {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+ 
+}
+
+#div2 {
+  background-image: url('');
+  background-size: cover; /* For at sikre, at billedet dækker hele området */
+}
+
+#div3 {
+  background-image: url('');
+  background-size: cover;
+}
+
+#div4 {
+  background-image: url('path-to-your-image3.jpg');
+  background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.videre {
+    clear: both;
+    display: block;
+    background-color: #d05825;
+    padding: 2ch;
+    width: 33%;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 10px;
+}
