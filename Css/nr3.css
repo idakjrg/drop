@@ -11,6 +11,10 @@ a {
     font-size: xx-large;
 }
 
+h3 {
+    color: black;
+}
+
 a:hover {
     color:rgb(0, 0, 0);
 }
@@ -24,8 +28,8 @@ a:hover {
 #div2,
 .kasse {
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
